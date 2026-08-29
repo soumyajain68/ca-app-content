@@ -1,0 +1,2648 @@
+{
+  "contentVersion": "2026-08-30.9",
+  "minAppVersion": "0.1.0",
+  "concepts": [
+    {
+      "id": "p3.sa200.reasonable-assurance",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 200 — Overall Objectives of the Independent Auditor",
+      "statement": "An audit conducted under the Standards on Auditing obtains reasonable assurance, which is a high level of assurance but not absolute assurance.",
+      "citation": {
+        "source": "SA 200",
+        "ref": "para 5"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 4,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa210.preconditions",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 210 — Agreeing the Terms of Audit Engagements",
+      "statement": "The preconditions for an audit are an acceptable financial reporting framework and management's agreement to the premise on which an audit is conducted — its responsibility for the financial statements, for internal control, and for giving the auditor access and information. Where the preconditions are not present, the auditor does not accept the engagement.",
+      "citation": {
+        "source": "SA 210",
+        "ref": "para 6"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa210.scope-limitation-before-acceptance",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 210 — Agreeing the Terms of Audit Engagements",
+      "statement": "Where management imposes a limitation on scope before the engagement is accepted, and the auditor expects that limitation will result in a disclaimer of opinion, the auditor does not accept the engagement unless law or regulation requires it.",
+      "citation": {
+        "source": "SA 210",
+        "ref": "para 7"
+      },
+      "prereqs": [
+        "p3.sa210.preconditions"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa220.engagement-partner-responsibility",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 220 (Revised) — Quality Management for an Audit",
+      "statement": "The engagement partner takes overall responsibility for managing and achieving quality on the engagement. Work may be delegated across the engagement team, but the responsibility for quality is not delegated with it.",
+      "citation": {
+        "source": "SA 220 (Revised)",
+        "ref": "para 13"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa230.file-assembly-period",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 230 — Audit Documentation",
+      "statement": "The final audit file is assembled ordinarily within not more than 60 days after the date of the auditor's report.",
+      "citation": {
+        "source": "SA 230",
+        "ref": "para 14 and A21"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.4,
+      "kind": "threshold",
+      "effortMinutes": 3,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa240.management-override",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 240 — The Auditor's Responsibilities Relating to Fraud",
+      "statement": "Management override of controls is a significant risk presumed to be present in every audit, and it is not rebuttable.",
+      "citation": {
+        "source": "SA 240",
+        "ref": "para 31"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.6,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa240.revenue-presumption",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 240 — The Auditor's Responsibilities Relating to Fraud",
+      "statement": "There is a presumed risk of fraud in revenue recognition, and unlike management override that presumption may be rebutted with documented reasons.",
+      "citation": {
+        "source": "SA 240",
+        "ref": "para 26 and 47"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa250.two-categories-of-law",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 250 — Consideration of Laws and Regulations",
+      "statement": "SA 250 splits laws into two categories, and the auditor's responsibility differs between them. For laws with a direct effect on the determination of material amounts and disclosures, the auditor obtains sufficient appropriate audit evidence about compliance. For other laws that are fundamental to the operating aspects of the business, the auditor only performs specified procedures to help identify non-compliance.",
+      "citation": {
+        "source": "SA 250",
+        "ref": "para 6"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa260.tcwg-communication",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 260 (Revised) — Communication with Those Charged with Governance",
+      "statement": "The auditor communicates the planned scope and timing of the audit to those charged with governance, not only the findings.",
+      "citation": {
+        "source": "SA 260 (Revised)",
+        "ref": "para 15 and 16"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "rule",
+      "effortMinutes": 4,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa265.control-deficiencies",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 265 — Communicating Deficiencies in Internal Control",
+      "statement": "Significant deficiencies in internal control are communicated in writing to those charged with governance on a timely basis.",
+      "citation": {
+        "source": "SA 265",
+        "ref": "para 9"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.4,
+      "kind": "rule",
+      "effortMinutes": 4,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa299.joint-audit-responsibility",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 299 (Revised) — Joint Audit of Financial Statements",
+      "statement": "Each joint auditor is responsible for the work divided to that auditor, and all joint auditors are jointly and severally responsible for the work not divided.",
+      "citation": {
+        "source": "SA 299 (Revised)",
+        "ref": "para 15 and 16"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa315.significant-risk",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 315 (Revised) — Identifying and Assessing the Risks of Material Misstatement",
+      "statement": "A significant risk is one requiring special audit consideration, and for such risks the auditor must obtain an understanding of the entity's related controls.",
+      "citation": {
+        "source": "SA 315 (Revised)",
+        "ref": "para 4(e) and 29"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.65,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa320.performance-materiality",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 320 — Materiality in Planning and Performing an Audit",
+      "statement": "Performance materiality is set below materiality for the financial statements as a whole, to reduce to an appropriately low level the probability that uncorrected and undetected misstatements aggregate above materiality.",
+      "citation": {
+        "source": "SA 320",
+        "ref": "para 9 and 11"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.6,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa330.substantive-for-significant-risk",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 330 — The Auditor's Responses to Assessed Risks",
+      "statement": "When the auditor has determined that an assessed risk of material misstatement at the assertion level is a significant risk, substantive procedures specifically responsive to that risk must be performed.",
+      "citation": {
+        "source": "SA 330",
+        "ref": "para 21"
+      },
+      "prereqs": [
+        "p3.sa315.significant-risk"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.55,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa402.type1-vs-type2",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 402 — Audit Considerations Relating to an Entity Using a Service Organisation",
+      "statement": "A Type 1 report describes the service organisation's system and the design of its controls at a point in time. A Type 2 report also reports on their operating effectiveness over a period. Only a Type 2 report can give evidence about operating effectiveness.",
+      "citation": {
+        "source": "SA 402",
+        "ref": "para 8 and 17"
+      },
+      "prereqs": [
+        "p3.sa315.significant-risk"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "definition",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa450.uncorrected-misstatements",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 450 — Evaluation of Misstatements Identified during the Audit",
+      "statement": "Uncorrected misstatements are communicated to those charged with governance and the auditor evaluates whether they are material individually or in aggregate.",
+      "citation": {
+        "source": "SA 450",
+        "ref": "para 11 and 12"
+      },
+      "prereqs": [
+        "p3.sa320.performance-materiality"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa500.sufficient-appropriate",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 500 — Audit Evidence",
+      "statement": "Sufficiency is the measure of the quantity of audit evidence; appropriateness is the measure of its quality, being its relevance and its reliability.",
+      "citation": {
+        "source": "SA 500",
+        "ref": "para 5(b), 5(e)"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.55,
+      "kind": "definition",
+      "effortMinutes": 4,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa501.inventory-attendance",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 501 — Audit Evidence: Specific Considerations for Selected Items",
+      "statement": "When inventory is material to the financial statements, the auditor must attend the physical inventory counting unless it is impracticable.",
+      "citation": {
+        "source": "SA 501",
+        "ref": "para 4"
+      },
+      "prereqs": [
+        "p3.sa500.sufficient-appropriate"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa505.negative-confirmations",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 505 — External Confirmations",
+      "statement": "Negative confirmations may be used as the sole substantive procedure only when the assessed risk is low, the population is large and homogeneous, a very low exception rate is expected, and the auditor is not aware of circumstances that would cause recipients to disregard them.",
+      "citation": {
+        "source": "SA 505",
+        "ref": "para 15"
+      },
+      "prereqs": [
+        "p3.sa500.sufficient-appropriate"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.4,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa510.opening-balances",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 510 — Initial Audit Engagements: Opening Balances",
+      "statement": "In an initial audit engagement the auditor obtains sufficient appropriate audit evidence about whether opening balances contain misstatements that materially affect the current period's financial statements, and whether accounting policies reflected in the opening balances have been consistently applied.",
+      "citation": {
+        "source": "SA 510",
+        "ref": "para 6"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.4,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa520.when-analytical-procedures-are-required",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 520 — Analytical Procedures",
+      "statement": "Analytical procedures are mandatory at two points in an audit — as risk assessment procedures during planning, and near the end of the audit to form an overall conclusion. Using them as substantive procedures is optional, a choice the auditor makes about how to respond to an assessed risk.",
+      "citation": {
+        "source": "SA 520",
+        "ref": "para 6"
+      },
+      "prereqs": [
+        "p3.sa315.significant-risk"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa530.project-misstatements",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 530 — Audit Sampling",
+      "statement": "Misstatements found in a sample are projected to the population the sample was drawn from. The sample is a means of reaching a conclusion about the whole population, so the error found in it is evidence about the whole population, not only about the items examined.",
+      "citation": {
+        "source": "SA 530",
+        "ref": "para 14"
+      },
+      "prereqs": [
+        "p3.sa320.performance-materiality"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "procedure",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa550.outside-normal-course",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 550 — Related Parties",
+      "statement": "A significant related party transaction outside the entity's normal course of business gives rise to a significant risk. The auditor inspects the underlying contracts and evaluates whether the business rationale suggests the transaction was entered into to engage in fraudulent financial reporting or to conceal misappropriation of assets.",
+      "citation": {
+        "source": "SA 550",
+        "ref": "para 18 and 23"
+      },
+      "prereqs": [
+        "p3.sa315.significant-risk",
+        "p3.sa240.management-override"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.55,
+      "kind": "rule",
+      "effortMinutes": 7,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa560.dual-dating",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 560 — Subsequent Events",
+      "statement": "Where the report is amended for a subsequent event, dual dating confines the auditor's responsibility for events after the original date to that amendment alone.",
+      "citation": {
+        "source": "SA 560",
+        "ref": "para 12(b)"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.35,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa570.material-uncertainty-disclosed",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 570 (Revised) — Going Concern",
+      "statement": "Where a material uncertainty about going concern exists and is adequately disclosed, the opinion is unmodified and a separate section headed \"Material Uncertainty Related to Going Concern\" is included.",
+      "citation": {
+        "source": "SA 570 (Revised)",
+        "ref": "para 22"
+      },
+      "prereqs": [
+        "p3.sa705.qualified-vs-adverse"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.6,
+      "kind": "rule",
+      "effortMinutes": 7,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa580.representations-are-not-enough",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 580 — Written Representations",
+      "statement": "Written representations are audit evidence, but they are not sufficient appropriate audit evidence on their own about any of the matters they deal with. Obtaining them does not affect the nature or extent of the other evidence the auditor obtains.",
+      "citation": {
+        "source": "SA 580",
+        "ref": "para 4"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 4,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa600.division-of-responsibility",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 600 — Using the Work of Another Auditor",
+      "statement": "Where a principal auditor uses the work of another auditor for a component, the principal auditor states the division of responsibility in the audit report, naming the magnitude of the portion audited by the other auditor. The principal auditor is not responsible for the work entrusted to the other auditor.",
+      "citation": {
+        "source": "SA 600",
+        "ref": "para 17"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa610.direct-assistance",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 610 (Revised) — Using the Work of Internal Auditors",
+      "statement": "SA 610 (Revised) as issued in India does not permit the external auditor to use internal auditors to provide direct assistance; the work of the internal audit function may still be used.",
+      "citation": {
+        "source": "SA 610 (Revised)",
+        "ref": "para 5 and the Indian scope limitation"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.3,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa620.sole-responsibility",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 620 — Using the Work of an Auditor's Expert",
+      "statement": "The auditor has sole responsibility for the audit opinion, and that responsibility is not reduced by using the work of an auditor's expert. The auditor's report does not refer to the expert unless the reference is required by law or regulation, and where it is, the report must state that the reference does not reduce the auditor's responsibility.",
+      "citation": {
+        "source": "SA 620",
+        "ref": "para 14 and 15"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.45,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa700.opinion-section-first",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 700 (Revised) — Forming an Opinion and Reporting",
+      "statement": "The auditor's report opens with the Opinion section, and the Basis for Opinion section comes directly after it. The conclusion is stated before the reasons for it, so a reader who stops after the first paragraph has still read the opinion.",
+      "citation": {
+        "source": "SA 700",
+        "ref": "para 21 and 28"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.55,
+      "kind": "rule",
+      "effortMinutes": 4,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa701.kam-scope",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 701 — Communicating Key Audit Matters",
+      "statement": "Key audit matters are required for audits of complete sets of general purpose financial statements of listed entities, and where otherwise required by law or voluntarily undertaken.",
+      "citation": {
+        "source": "SA 701",
+        "ref": "para 5"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.5,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa705.qualified-vs-adverse",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 705 (Revised) — Modifications to the Opinion",
+      "statement": "A material misstatement that is not pervasive gives a qualified opinion; a material misstatement that is pervasive gives an adverse opinion.",
+      "citation": {
+        "source": "SA 705",
+        "ref": "para 5, 7(a)"
+      },
+      "prereqs": [
+        "p3.sa320.performance-materiality"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.7,
+      "kind": "judgement",
+      "effortMinutes": 8,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa706.eom-vs-other-matter",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 706 (Revised) — Emphasis of Matter and Other Matter Paragraphs",
+      "statement": "An Emphasis of Matter paragraph refers to a matter presented or disclosed in the financial statements; an Other Matter paragraph refers to a matter not so disclosed but relevant to users' understanding of the audit, the auditor's responsibilities or the report.",
+      "citation": {
+        "source": "SA 706 (Revised)",
+        "ref": "para 8 and 10"
+      },
+      "prereqs": [
+        "p3.sa705.qualified-vs-adverse"
+      ],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.55,
+      "kind": "rule",
+      "effortMinutes": 6,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa710.corresponding-figures-not-in-opinion",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 710 — Comparative Information: Corresponding Figures and Comparative Financial Statements",
+      "statement": "Where comparatives are presented as corresponding figures, the auditor's opinion refers to the current period only and does not refer to the corresponding figures. Where they are presented as comparative financial statements, the opinion refers to each period for which financial statements are presented.",
+      "citation": {
+        "source": "SA 710",
+        "ref": "para 10 and 15"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.4,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa720.other-information-no-opinion",
+      "paper": 3,
+      "section": "Standards on Auditing",
+      "subsection": "SA 720 — The Auditor's Responsibilities Relating to Other Information",
+      "statement": "The auditor reads the other information in the annual report and considers whether it is materially inconsistent with the financial statements or with the auditor's knowledge obtained in the audit. The auditor does not audit the other information and expresses no opinion or conclusion on it.",
+      "citation": {
+        "source": "SA 720",
+        "ref": "para 14 and 15"
+      },
+      "prereqs": [],
+      "weightageBand": [
+        45,
+        55
+      ],
+      "observedFrequency": 0.4,
+      "kind": "rule",
+      "effortMinutes": 5,
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    }
+  ],
+  "items": [
+    {
+      "id": "p3.sa200.reasonable-assurance",
+      "conceptId": "p3.sa200.reasonable-assurance",
+      "stem": "What level of assurance does an audit conducted in accordance with the Standards on Auditing obtain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reasonable assurance, which is a high but not absolute level of assurance",
+          "correct": true,
+          "why": "SA 200 defines the auditor's objective as obtaining reasonable assurance — a high level, but not absolute, because of the inherent limitations of an audit: the nature of financial reporting, the nature of audit procedures, and the need to complete the audit at a reasonable cost within a reasonable time."
+        },
+        {
+          "id": "b",
+          "text": "Absolute assurance that the financial statements are free from material misstatement",
+          "correct": false,
+          "misconception": "promises absolute assurance, which no audit can give",
+          "why": "Absolute assurance is unattainable. SA 200 states the inherent limitations expressly: audit evidence is persuasive rather than conclusive, and testing is selective rather than exhaustive."
+        },
+        {
+          "id": "c",
+          "text": "A stated numerical probability that the financial statements are free from material misstatement",
+          "correct": false,
+          "misconception": "treats assurance as a probability the auditor is required to quantify",
+          "why": "The Standards nowhere ask the auditor to express assurance as a percentage. Reasonable assurance is a qualitative concept about the sufficiency of evidence obtained, not a computed figure."
+        },
+        {
+          "id": "d",
+          "text": "Moderate assurance, since \"reasonable\" means something less than high",
+          "correct": false,
+          "misconception": "reads \"reasonable\" as a lowering of the standard rather than a description of a high one",
+          "why": "SA 200 uses \"reasonable\" to mean high. Moderate or limited assurance is the language of review engagements under SRE 2400, not of an audit."
+        }
+      ],
+      "citation": {
+        "source": "SA 200",
+        "ref": "para 5"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa210.preconditions.i01",
+      "conceptId": "p3.sa210.preconditions",
+      "stem": "Can you accept the engagement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, if the promoter gives the acknowledgement orally instead",
+          "correct": false,
+          "misconception": "treats an oral acknowledgement as satisfying a written agreement of terms",
+          "why": "SA 210 requires the agreed terms to be recorded in an engagement letter or other suitable written agreement. An oral assurance leaves nothing that can be pointed to later."
+        },
+        {
+          "id": "b",
+          "text": "Yes, provided the audit report is modified to say management did not accept responsibility",
+          "correct": false,
+          "misconception": "converts a refusal to accept into a reporting matter",
+          "why": "A modification describes the result of an audit that was performed. SA 210 stops the engagement earlier, at acceptance, precisely so the auditor is never in the position of reporting on an audit that lacked its foundation."
+        },
+        {
+          "id": "c",
+          "text": "No, because management's agreement to its responsibilities is a precondition for an audit",
+          "correct": true,
+          "why": "The premise of an audit is that management acknowledges its responsibility for the financial statements, for internal control, and for providing access and information. Without that acknowledgement there is nothing for the audit to be an audit of, so SA 210 does not permit acceptance."
+        },
+        {
+          "id": "d",
+          "text": "Yes, because the size of the company makes formal internal control unnecessary",
+          "correct": false,
+          "misconception": "confuses how elaborate the controls are with whether responsibility is accepted",
+          "why": "The precondition is about who is responsible, not about how sophisticated the controls are. A small entity's controls may be simple; management still has to acknowledge them as its own."
+        }
+      ],
+      "citation": {
+        "source": "SA 210",
+        "ref": "para 6"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A prospective client asks you to audit its financial statements but says it will not sign any acknowledgement of responsibility for internal control, on the ground that the company is small and the promoter handles everything personally."
+    },
+    {
+      "id": "p3.sa210.scope-limitation-before-acceptance.i01",
+      "conceptId": "p3.sa210.scope-limitation-before-acceptance",
+      "stem": "What should you do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept, and use alternative procedures instead of confirmation and attendance",
+          "correct": false,
+          "misconception": "assumes alternative procedures can always replace a blocked procedure",
+          "why": "Alternative procedures address a limitation the auditor meets during the audit, and they work only when they can actually produce the evidence. Here the restriction is imposed in advance and covers most of the balance sheet."
+        },
+        {
+          "id": "b",
+          "text": "Accept, and report the restriction to those charged with governance",
+          "correct": false,
+          "misconception": "substitutes communication for the acceptance decision",
+          "why": "Those charged with governance are, in this scenario, the source of the restriction. Reporting it back to them does not obtain the evidence or discharge the SA 210 test."
+        },
+        {
+          "id": "c",
+          "text": "Decline the engagement, because the limitation would lead to a disclaimer of opinion",
+          "correct": true,
+          "why": "The two areas closed off are 70 per cent of total assets, so the auditor could not obtain sufficient appropriate evidence about anything material. SA 210 does not allow accepting an engagement whose known limitation will end in a disclaimer, unless law requires it."
+        },
+        {
+          "id": "d",
+          "text": "Accept, perform what you can, and issue a disclaimer of opinion",
+          "correct": false,
+          "misconception": "accepts a doomed engagement on the basis that the report will say so",
+          "why": "Knowingly accepting an audit that cannot produce an opinion lends the auditor's name to an exercise with no outcome. That is the outcome SA 210 exists to prevent, which is why the test is applied at acceptance."
+        }
+      ],
+      "citation": {
+        "source": "SA 210",
+        "ref": "para 7"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Before appointing you, a company tells you that you may not circularise trade receivables or attend the inventory count, because both would disturb its customers and its plant. Receivables and inventory together are 70 per cent of total assets."
+    },
+    {
+      "id": "p3.sa220.engagement-partner-responsibility.i01",
+      "conceptId": "p3.sa220.engagement-partner-responsibility",
+      "stem": "Where does responsibility for the quality of this engagement sit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "With the firm, through its system of quality management",
+          "correct": false,
+          "misconception": "substitutes the firm-level system for the engagement-level responsibility",
+          "why": "The firm's system is a separate requirement under SQM 1 and sits alongside this one. It supports the engagement partner rather than replacing them."
+        },
+        {
+          "id": "b",
+          "text": "With the manager, who performed the detailed review",
+          "correct": false,
+          "misconception": "moves responsibility to whoever did the work",
+          "why": "The manager is accountable within the firm for the review performed, but the standard does not shift the engagement partner's overall responsibility onto the person delegated to."
+        },
+        {
+          "id": "c",
+          "text": "With the engagement partner, who retains overall responsibility however the work is delegated",
+          "correct": true,
+          "why": "SA 220 (Revised) places overall responsibility for managing and achieving quality on the engagement partner. Delegating review work is normal and expected; delegating the responsibility for quality is not possible."
+        },
+        {
+          "id": "d",
+          "text": "Shared equally between the engagement partner and the engagement quality reviewer",
+          "correct": false,
+          "misconception": "treats an independent review as a transfer of responsibility",
+          "why": "An engagement quality review is an objective evaluation of significant judgements. It does not reduce or share the engagement partner's overall responsibility for quality."
+        }
+      ],
+      "citation": {
+        "source": "SA 220 (Revised)",
+        "ref": "para 13"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "draft",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "An audit is staffed with a manager, two seniors and three articles. The engagement partner visits the client twice, reviews the summary memorandum and signs the report. The detailed review of every working paper was done by the manager."
+    },
+    {
+      "id": "p3.sa230.file-assembly-period",
+      "conceptId": "p3.sa230.file-assembly-period",
+      "stem": "Within what period must the final audit file ordinarily be assembled after the auditor's report is dated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "90 days",
+          "correct": false,
+          "misconception": "confuses assembly with the longer periods that govern retention",
+          "why": "Retention runs for years, not 90 days; assembly is the 60-day requirement. The two are separate obligations under SA 230."
+        },
+        {
+          "id": "b",
+          "text": "30 days",
+          "correct": false,
+          "misconception": "carries over a shorter statutory filing period as if it governed file assembly",
+          "why": "No provision of SA 230 sets 30 days. The number is imported from unrelated filing deadlines."
+        },
+        {
+          "id": "c",
+          "text": "60 days",
+          "correct": true,
+          "why": "SA 230 sets an outer limit of ordinarily not more than 60 days after the date of the auditor's report for completing the administrative assembly of the final file."
+        },
+        {
+          "id": "d",
+          "text": "Before the auditor's report is signed",
+          "correct": false,
+          "misconception": "treats assembly as a precondition to signing rather than an administrative step after it",
+          "why": "SA 230 measures the period from the date of the auditor's report, which presupposes the report is already dated. Assembly is administrative and adds no new evidence."
+        }
+      ],
+      "citation": {
+        "source": "SA 230",
+        "ref": "para 14 and A21"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa230.file-assembly-period.i02",
+      "conceptId": "p3.sa230.file-assembly-period",
+      "stem": "What does SA 230 require when you add to the file after the report date?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The audit report must be reissued to reflect the additional documentation",
+          "correct": false,
+          "misconception": "confuses completing the file with changing the opinion",
+          "why": "Writing up a discussion that informed an opinion already reached changes nothing about the opinion. Reissuing a report is for facts discovered after the date that would have changed it."
+        },
+        {
+          "id": "b",
+          "text": "Nothing may be added after the report date, so the paper must be left out",
+          "correct": false,
+          "misconception": "reads the assembly period as a freeze on the file",
+          "why": "The file is assembled after the report is signed; that is what the assembly period is for. The rule governs how additions are recorded, not whether they may be made."
+        },
+        {
+          "id": "c",
+          "text": "Nothing, provided the addition is made within sixty days of the report date",
+          "correct": false,
+          "misconception": "treats the assembly period as a window in which changes need no record",
+          "why": "The period bounds when assembly must finish. It does not suspend the documentation requirement for changes made inside it."
+        },
+        {
+          "id": "d",
+          "text": "Document when and by whom the addition was made and reviewed, and why it was made",
+          "correct": true,
+          "why": "Additions during the assembly period are allowed — assembling the file is administrative. What SA 230 requires is that the change be visible: the reasons for it, and who made and reviewed it and when, so the file cannot be quietly rewritten after the event."
+        }
+      ],
+      "citation": {
+        "source": "SA 230",
+        "ref": "para 16"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Two weeks after signing the audit report, you realise a working paper recording your discussion with the finance director about a provision was never filed. You write it up now and add it to the file."
+    },
+    {
+      "id": "p3.sa240.management-override",
+      "conceptId": "p3.sa240.management-override",
+      "stem": "How should you treat the risk of management override of controls?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As a significant risk only where the assessment shows the control environment to be weak",
+          "correct": false,
+          "misconception": "makes a mandatory risk conditional on the strength of controls",
+          "why": "SA 240 attaches no such condition. The risk arises from management's position of authority, not from any deficiency in the controls it is able to override."
+        },
+        {
+          "id": "b",
+          "text": "As a significant risk only in the audits of listed entities",
+          "correct": false,
+          "misconception": "confines a requirement that applies to all audits to listed entities alone",
+          "why": "SA 240 draws no distinction by class of entity here. If anything the risk is higher in owner-managed entities, where fewer people stand between management and the accounting records."
+        },
+        {
+          "id": "c",
+          "text": "As a presumption that may be rebutted with documented reasons, as with revenue recognition",
+          "correct": false,
+          "misconception": "borrows the rebuttable revenue presumption and applies it where the Standard allows no rebuttal",
+          "why": "SA 240 makes only the revenue-recognition fraud risk rebuttable. The management-override requirement is stated unconditionally and there is no mechanism in the Standard for setting it aside."
+        },
+        {
+          "id": "d",
+          "text": "As a significant risk present in every audit, so the required responses are performed regardless of the control environment",
+          "correct": true,
+          "why": "SA 240 requires the auditor to treat management override as a significant risk in all audits. Management is uniquely placed to override controls that otherwise operate effectively, so a strong control environment does not remove the risk — it is precisely what management is able to override."
+        }
+      ],
+      "citation": {
+        "source": "SA 240",
+        "ref": "para 31"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A client has a well-designed control environment, no history of fraud, and an audit committee that meets regularly. Your engagement team argues that testing journal entries for management override adds nothing this year."
+    },
+    {
+      "id": "p3.sa240.revenue-presumption",
+      "conceptId": "p3.sa240.revenue-presumption",
+      "stem": "What is the status of the presumed risk of fraud in revenue recognition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is presumed, but the auditor may rebut it and must document the reasons for that conclusion",
+          "correct": true,
+          "why": "SA 240 requires the auditor to presume fraud risks in revenue recognition, while permitting rebuttal where the presumption is not applicable in the circumstances. Where it is rebutted, the Standard requires the reasons to be documented."
+        },
+        {
+          "id": "b",
+          "text": "It applies uniformly to every revenue stream, so no analysis of which streams carry the risk is needed",
+          "correct": false,
+          "misconception": "applies the presumption as a blanket rule instead of identifying which revenue assertions carry the risk",
+          "why": "SA 240 requires the auditor to identify which types of revenue, revenue transactions or assertions give rise to the risk. A blanket assumption skips the identification the Standard asks for."
+        },
+        {
+          "id": "c",
+          "text": "It may be rebutted only with the approval of those charged with governance",
+          "correct": false,
+          "misconception": "makes a professional judgement subject to a governance approval the Standard never requires",
+          "why": "The rebuttal is the auditor's judgement, documented in the working papers. SA 240 requires documentation, not consent."
+        },
+        {
+          "id": "d",
+          "text": "It cannot be rebutted in any circumstances",
+          "correct": false,
+          "misconception": "makes the revenue presumption as absolute as the management-override requirement",
+          "why": "SA 240 phrases the two differently on purpose. Revenue is rebuttable in the circumstances of the engagement; management override is not."
+        }
+      ],
+      "citation": {
+        "source": "SA 240",
+        "ref": "para 26 and 47"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa240.management-override.i02",
+      "conceptId": "p3.sa240.management-override",
+      "stem": "Why does SA 240 require you to test journal entries in every audit, and what makes these ones urgent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because journal entries are always the largest source of error in any accounting system",
+          "correct": false,
+          "misconception": "justifies the procedure by frequency of error rather than by the override risk",
+          "why": "The requirement is not about where errors happen most. It exists because override is the one risk that cannot be controlled away, since it is the controls themselves that are being overridden."
+        },
+        {
+          "id": "b",
+          "text": "Because the auditor is required to detect all fraud, and journals are where fraud is hidden",
+          "correct": false,
+          "misconception": "overstates the auditor's responsibility from reasonable assurance to detection of all fraud",
+          "why": "The auditor obtains reasonable assurance that the statements are free from material misstatement, whether from fraud or error. That is not a duty to detect all fraud, and SA 240 does not create one."
+        },
+        {
+          "id": "c",
+          "text": "It is not required in every audit; it is required only where fraud risk factors have been identified",
+          "correct": false,
+          "misconception": "makes a mandatory response conditional on identifying risk factors first",
+          "why": "SA 240 requires the journal entry testing regardless. Management override is presumed to be a risk in every entity, so the response is not conditional on anything being spotted first."
+        },
+        {
+          "id": "d",
+          "text": "Because management can override controls that otherwise operate effectively, and these entries carry the hallmarks of override",
+          "correct": true,
+          "why": "SA 240 treats management override as a risk present in every entity, however good the controls, because the people who can override them are the people who run them. Testing journal entries is one of the required responses. These entries carry the classic markers — posted at the period end, outside the normal process, approved by one person, and explained by a narration that explains nothing."
+        }
+      ],
+      "citation": {
+        "source": "SA 240",
+        "ref": "para 31 and 32"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A company posts 41 manual journal entries on 31 March 2026, all after the normal cut-off, all approved by the chief financial officer alone, and all with the narration \"regrouping\". Their net effect increases profit by ₹3.7 crore."
+    },
+    {
+      "id": "p3.sa250.two-categories-of-law.i01",
+      "conceptId": "p3.sa250.two-categories-of-law",
+      "stem": "What is your responsibility under SA 250 for compliance with the environmental clearance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No responsibility at all, because compliance with environmental law is management's concern",
+          "correct": false,
+          "misconception": "reads the split as duty versus no duty, rather than two different duties",
+          "why": "Both categories carry a duty. The second is narrower, not absent: SA 250 still requires enquiry of management and inspection of correspondence with the licensing authority."
+        },
+        {
+          "id": "b",
+          "text": "Report the matter to the regulator before completing the audit",
+          "correct": false,
+          "misconception": "jumps to external reporting before the standard's own procedures",
+          "why": "Reporting outside the entity is a separate question that arises only after non-compliance is identified or suspected, and is governed by law and by SA 250's later paragraphs. It is not the auditor's responsibility for compliance as such."
+        },
+        {
+          "id": "c",
+          "text": "Perform specified procedures to help identify non-compliance, without obtaining evidence about compliance itself",
+          "correct": true,
+          "why": "The clearance is fundamental to the operating aspects of the business but has no direct effect on the determination of material amounts and disclosures, so it falls in SA 250's second category. There the auditor's responsibility is limited to specified procedures — enquiring of management and inspecting correspondence with the relevant licensing authority — rather than obtaining evidence about compliance."
+        },
+        {
+          "id": "d",
+          "text": "Obtain sufficient appropriate audit evidence about compliance with every condition",
+          "correct": false,
+          "misconception": "applies the higher first-category duty to a law with no direct effect on the figures",
+          "why": "That is the duty for the first category only — laws that directly determine material amounts and disclosures. Extending it to every law fundamental to operations would make the auditor a compliance inspector, which SA 250 expressly does not do."
+        }
+      ],
+      "citation": {
+        "source": "SA 250",
+        "ref": "para 6"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You are auditing a chemical manufacturer. The company holds an environmental clearance whose conditions govern how effluent is discharged. Breaching those conditions can lead to the plant being shut down, but the clearance does not itself determine any figure recognised in the financial statements."
+    },
+    {
+      "id": "p3.sa260.tcwg-communication",
+      "conceptId": "p3.sa260.tcwg-communication",
+      "stem": "Which of these must be communicated to those charged with governance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nothing further, provided the matters have been discussed with management",
+          "correct": false,
+          "misconception": "treats management as a substitute for those charged with governance",
+          "why": "The two are different bodies with different roles, and they overlap only in some entities. SA 260 (Revised) addresses the communication to those charged with governance specifically."
+        },
+        {
+          "id": "b",
+          "text": "Only the findings from the audit, since scope is the auditor's own affair",
+          "correct": false,
+          "misconception": "restricts the communication to findings when the Standard also requires planning matters",
+          "why": "SA 260 (Revised) lists the auditor's responsibilities, the planned scope and timing, and significant findings as separate required communications. Reporting only findings omits two of the three."
+        },
+        {
+          "id": "c",
+          "text": "Nothing, unless the entity is listed",
+          "correct": false,
+          "misconception": "treats a requirement that applies to all audits as one confined to listed entities",
+          "why": "Only the independence communication in SA 260 (Revised) is confined to listed entities. Scope and timing are communicated in every audit."
+        },
+        {
+          "id": "d",
+          "text": "The planned scope and timing of the audit",
+          "correct": true,
+          "why": "SA 260 (Revised) requires the auditor to communicate an overview of the planned scope and timing of the audit. Communication runs in both directions and before the work as well as after it, so that governance understands what the audit will and will not cover."
+        }
+      ],
+      "citation": {
+        "source": "SA 260 (Revised)",
+        "ref": "para 15 and 16"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa265.control-deficiencies",
+      "conceptId": "p3.sa265.control-deficiencies",
+      "stem": "What does SA 265 require you to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Communicate the three significant deficiencies to management alone",
+          "correct": false,
+          "misconception": "stops at management where the Standard requires the communication to reach governance",
+          "why": "SA 265 directs significant deficiencies to those charged with governance. Communicating only to management withholds them from the body responsible for overseeing management."
+        },
+        {
+          "id": "b",
+          "text": "Communicate all eleven deficiencies in writing to those charged with governance",
+          "correct": false,
+          "misconception": "raises every deficiency to the level the Standard reserves for significant ones",
+          "why": "Only significant deficiencies go in writing to those charged with governance. Other deficiencies of sufficient importance go to management, at the appropriate level."
+        },
+        {
+          "id": "c",
+          "text": "Communicate the three significant deficiencies orally at the closing meeting",
+          "correct": false,
+          "misconception": "substitutes an oral communication where the Standard requires writing",
+          "why": "SA 265 specifies written communication for significant deficiencies. An oral briefing may supplement it but cannot replace it."
+        },
+        {
+          "id": "d",
+          "text": "Communicate the three significant deficiencies in writing to those charged with governance on a timely basis",
+          "correct": true,
+          "why": "SA 265 requires significant deficiencies to be communicated in writing and on a timely basis to those charged with governance. The written form exists so that the matter is recorded and can be acted on; timeliness exists so it can be acted on while it still matters."
+        }
+      ],
+      "citation": {
+        "source": "SA 265",
+        "ref": "para 9"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "During the audit you identify eleven deficiencies in internal control. Three are significant deficiencies in your professional judgement; the remaining eight are minor."
+    },
+    {
+      "id": "p3.sa299.joint-audit-responsibility",
+      "conceptId": "p3.sa299.joint-audit-responsibility",
+      "stem": "Who bears responsibility for that misstatement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firm A alone, and no element of the audit carries joint responsibility",
+          "correct": false,
+          "misconception": "removes the joint element entirely and leaves undivided work unowned",
+          "why": "The undivided work — here the treasury operations, and the report itself — is jointly and severally the responsibility of both. Individual responsibility exists alongside joint responsibility, not instead of it."
+        },
+        {
+          "id": "b",
+          "text": "Both firms jointly, because joint auditors are responsible for the whole audit without division",
+          "correct": false,
+          "misconception": "collapses divided work into joint responsibility and leaves division of work with no meaning",
+          "why": "SA 299 (Revised) provides expressly for division of work and attaches individual responsibility to it. If everything were joint, the Standard's division provisions would do nothing."
+        },
+        {
+          "id": "c",
+          "text": "The firm that signs first, as the principal joint auditor",
+          "correct": false,
+          "misconception": "invents a principal joint auditor, a rank SA 299 does not create",
+          "why": "SA 299 (Revised) recognises no hierarchy among joint auditors. Order of signature carries no consequence for responsibility."
+        },
+        {
+          "id": "d",
+          "text": "Firm A alone, because the northern division was the work divided to it; both firms remain jointly and severally responsible for the undivided treasury work",
+          "correct": true,
+          "why": "SA 299 (Revised) makes each joint auditor responsible for the work allocated to that auditor, and all joint auditors jointly and severally responsible for work not divided and for decisions taken together, including the audit report."
+        }
+      ],
+      "citation": {
+        "source": "SA 299 (Revised)",
+        "ref": "para 15 and 16"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Two firms are joint auditors of a company. The work is divided by division: Firm A takes the northern division, Firm B the southern. Neither firm's division covers the group's treasury operations, which both firms address together. A misstatement is later found in the northern division's revenue."
+    },
+    {
+      "id": "p3.sa315.significant-risk",
+      "conceptId": "p3.sa315.significant-risk",
+      "stem": "What follows from determining that an identified risk is a significant risk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They may be addressed by substantive procedures alone, with no need to understand the related controls",
+          "correct": false,
+          "misconception": "skips the mandatory understanding of controls by going straight to substantive work",
+          "why": "SA 315 (Revised) requires the understanding of related controls whatever the planned response. The response is a separate question, governed by SA 330."
+        },
+        {
+          "id": "b",
+          "text": "Significant risks arise only from fraud",
+          "correct": false,
+          "misconception": "confines significant risks to fraud when error can equally produce one",
+          "why": "Fraud risks are always significant risks, but the category is wider. Complex estimates and unusual transactions give rise to significant risks of error."
+        },
+        {
+          "id": "c",
+          "text": "Every high-value balance is a significant risk, so materiality alone identifies them",
+          "correct": false,
+          "misconception": "reduces a judgement about the nature of a risk to the size of the balance",
+          "why": "SA 315 (Revised) points to complexity, subjectivity, significant judgement, unusual transactions and related-party dealings — none of which is measured in rupees. A large but routine balance may carry no significant risk at all."
+        },
+        {
+          "id": "d",
+          "text": "It requires special audit consideration, and the auditor must obtain an understanding of the entity's controls relevant to that risk",
+          "correct": true,
+          "why": "SA 315 (Revised) defines a significant risk as one requiring special audit consideration, and requires the auditor to evaluate the design and determine the implementation of the controls relevant to it. Understanding those controls is what makes a targeted response possible."
+        }
+      ],
+      "citation": {
+        "source": "SA 315 (Revised)",
+        "ref": "para 4(e) and 29"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa315.significant-risk.i02",
+      "conceptId": "p3.sa315.significant-risk",
+      "stem": "Why does this transaction give rise to a significant risk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is an unusual related party transaction outside the normal course of business, with a significant effect on the reported result",
+          "correct": true,
+          "why": "SA 315 (Revised) points to unusual transactions and related-party dealings as indicators. Every indicator is present at once here: the counterparty is related, the transaction is outside normal operations, its timing is close to the year end, and it changes the headline result."
+        },
+        {
+          "id": "b",
+          "text": "It does not; a completed sale supported by a registered deed is fully verifiable",
+          "correct": false,
+          "misconception": "mistakes ease of vouching for absence of risk",
+          "why": "The deed proves a sale occurred. It says nothing about whether the price was arm's length, whether the substance matches the form, or whether the timing was chosen to produce the result — which is where the risk lives."
+        },
+        {
+          "id": "c",
+          "text": "Because the company is listed, and all listed company transactions carry significant risk",
+          "correct": false,
+          "misconception": "attaches the risk to the entity's status rather than to the transaction",
+          "why": "Listing brings its own reporting and independence requirements, but it does not make every transaction a significant risk. The assessment is made transaction by transaction."
+        },
+        {
+          "id": "d",
+          "text": "Because the gain is large in rupee terms",
+          "correct": false,
+          "misconception": "reduces a judgement about the nature of a risk to the size of the amount",
+          "why": "Size alone does not make a significant risk. A large but routine sale carries none. What matters here is that the transaction is related-party, non-routine and result-changing."
+        }
+      ],
+      "citation": {
+        "source": "SA 315 (Revised)",
+        "ref": "para 4(e) and 29"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A listed company sells one of its two factories to an entity owned by the managing director's brother, three weeks before the year end, at a gain that turns a loss into a profit."
+    },
+    {
+      "id": "p3.sa320.performance-materiality",
+      "conceptId": "p3.sa320.performance-materiality",
+      "stem": "Why is performance materiality set below materiality for the financial statements as a whole?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To reduce to an appropriately low level the probability that uncorrected and undetected misstatements together exceed materiality",
+          "correct": true,
+          "why": "SA 320 sets performance materiality to absorb aggregation risk. Individually immaterial misstatements can add up past materiality, and some misstatements will go undetected, so the working threshold has to sit below the reporting one."
+        },
+        {
+          "id": "b",
+          "text": "It does not: performance materiality is the same amount as materiality for the financial statements as a whole",
+          "correct": false,
+          "misconception": "equates the two amounts and leaves nothing to absorb aggregation risk",
+          "why": "If the two were equal, a set of individually tolerable misstatements could aggregate above materiality and pass unnoticed. SA 320 requires the lower amount for that reason."
+        },
+        {
+          "id": "c",
+          "text": "It is set at the engagement partner's preference, without reference to aggregation",
+          "correct": false,
+          "misconception": "treats the amount as unconstrained preference rather than a judgement directed at a stated objective",
+          "why": "SA 320 states the objective the amount must serve and points to the factors bearing on it — understanding of the entity, the nature of misstatements found in previous audits. Judgement operates within that, not outside it."
+        },
+        {
+          "id": "d",
+          "text": "It is the threshold above which misstatements are reported to those charged with governance",
+          "correct": false,
+          "misconception": "confuses performance materiality with the clearly trivial threshold used for accumulating misstatements",
+          "why": "The threshold for accumulating and reporting misstatements is a different figure under SA 450. Performance materiality governs the extent of procedures, not what gets reported."
+        }
+      ],
+      "citation": {
+        "source": "SA 320",
+        "ref": "para 9 and 11"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa320.performance-materiality.i02",
+      "conceptId": "p3.sa320.performance-materiality",
+      "stem": "What does SA 320 require you to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revise materiality, and reconsider whether the nature, timing and extent of further procedures remain appropriate",
+          "correct": true,
+          "why": "Materiality is revised when the auditor becomes aware of information that would have led to a different figure initially. A drop from ₹16 crore to ₹6 crore is exactly that. Revising the number is only half of it — the audit plan built on the old number has to be revisited too."
+        },
+        {
+          "id": "b",
+          "text": "Keep the planning figure, since materiality is set at planning and changing it undermines the plan",
+          "correct": false,
+          "misconception": "treats materiality as fixed once set",
+          "why": "SA 320 provides for revision precisely because circumstances change during an audit. Holding to ₹80 lakh against a ₹6 crore result would let misstatements of over 13 per cent of profit pass untested."
+        },
+        {
+          "id": "c",
+          "text": "Use the original figure for work already performed and the revised figure only for work still to come",
+          "correct": false,
+          "misconception": "applies two materialities to one set of financial statements",
+          "why": "One set of financial statements has one materiality. Work already done has to be reconsidered against the revised figure, not left standing against a threshold now known to be wrong."
+        },
+        {
+          "id": "d",
+          "text": "Revise materiality, but leave the planned procedures unchanged to preserve comparability",
+          "correct": false,
+          "misconception": "revises the number without revising anything that depends on it",
+          "why": "Sample sizes, scoping and the threshold for accumulating misstatements all follow from materiality. Changing it and leaving them alone leaves the audit executed to the old figure."
+        }
+      ],
+      "citation": {
+        "source": "SA 320",
+        "ref": "para 12 and 13"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You set materiality for the financial statements as a whole at ₹80 lakh during planning, based on forecast profit before tax of ₹16 crore. In February the company loses its largest customer and the actual profit before tax comes in at ₹6 crore."
+    },
+    {
+      "id": "p3.sa330.substantive-for-significant-risk",
+      "conceptId": "p3.sa330.substantive-for-significant-risk",
+      "stem": "What does SA 330 require of your response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The response may be deferred to the following year's audit if time is short",
+          "correct": false,
+          "misconception": "postpones a current-period requirement into a later engagement",
+          "why": "The requirement attaches to the audit of the period under report. Nothing in SA 330 permits deferral."
+        },
+        {
+          "id": "b",
+          "text": "Effective controls testing alone is a sufficient response to a significant risk",
+          "correct": false,
+          "misconception": "lets controls testing discharge a requirement the Standard states separately",
+          "why": "SA 330 states the substantive requirement independently of controls testing precisely so that it cannot be discharged by controls alone."
+        },
+        {
+          "id": "c",
+          "text": "Substantive procedures specifically responsive to that risk must still be performed",
+          "correct": true,
+          "why": "SA 330 requires substantive procedures specifically responsive to every risk assessed as significant, whatever the results of controls testing. Effective controls reduce the extent of substantive work; they never remove the requirement to do some."
+        },
+        {
+          "id": "d",
+          "text": "Substantive analytical procedures alone are sufficient for a significant risk",
+          "correct": false,
+          "misconception": "meets the requirement with analytical procedures where the Standard calls for tests of details",
+          "why": "SA 330 requires that where the approach to a significant risk consists only of substantive procedures, those procedures include tests of details. Analytics alone do not answer a risk of this kind."
+        }
+      ],
+      "citation": {
+        "source": "SA 330",
+        "ref": "para 21"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You have assessed the valuation of a complex financial instrument as a significant risk. Controls over the valuation model are well designed and you have tested them, finding them effective."
+    },
+    {
+      "id": "p3.sa402.type1-vs-type2.i01",
+      "conceptId": "p3.sa402.type1-vs-type2",
+      "stem": "Can the Type 1 report support your planned reliance on those controls?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, because it is dated at the year end and so covers the year then ended",
+          "correct": false,
+          "misconception": "reads the report date as the period it covers",
+          "why": "The date is the point at which design was assessed, not a period of coverage. A report dated at the year end says nothing about the eleven months before it."
+        },
+        {
+          "id": "b",
+          "text": "No, because it reports on the design of controls at a point in time and not on whether they operated throughout the period",
+          "correct": true,
+          "why": "Reliance on controls requires evidence that they operated effectively across the period being audited. A Type 1 report says the controls were suitably designed on one date, which leaves the other 364 days unevidenced."
+        },
+        {
+          "id": "c",
+          "text": "Yes, provided the service auditor is independent of both the provider and your client",
+          "correct": false,
+          "misconception": "treats the service auditor's independence as the thing that makes the report sufficient",
+          "why": "Independence and competence are necessary before the report can be used at all. They do not change what a Type 1 report contains, which is the limitation here."
+        },
+        {
+          "id": "d",
+          "text": "No, because a report from a service auditor can never be used as audit evidence by the user auditor",
+          "correct": false,
+          "misconception": "rejects service auditor reports entirely rather than distinguishing the two types",
+          "why": "SA 402 expressly contemplates using them. A Type 2 report would support this reliance; the problem is which type is in your hands, not the category."
+        }
+      ],
+      "citation": {
+        "source": "SA 402",
+        "ref": "para 8 and 17"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Your client outsources its entire payroll to a service provider. You intend to rely on controls at the provider to reduce substantive testing of payroll costs. The provider gives you a Type 1 report dated 31 March 2026, the year end."
+    },
+    {
+      "id": "p3.sa450.uncorrected-misstatements",
+      "conceptId": "p3.sa450.uncorrected-misstatements",
+      "stem": "What does SA 450 require?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Modify the opinion, because uncorrected misstatements always require modification",
+          "correct": false,
+          "misconception": "treats any uncorrected misstatement as automatically fatal to an unmodified opinion",
+          "why": "Modification follows from materiality, not from the mere fact of non-correction. At ₹18 lakh against materiality of ₹90 lakh, the evaluation SA 450 requires is what decides the question."
+        },
+        {
+          "id": "b",
+          "text": "Communicate the uncorrected misstatements to those charged with governance and evaluate whether they are material individually or in aggregate",
+          "correct": true,
+          "why": "SA 450 requires uncorrected misstatements to be communicated to those charged with governance, identifying them individually, along with the effect on the opinion, and requires the auditor to evaluate their materiality individually and in aggregate."
+        },
+        {
+          "id": "c",
+          "text": "Accumulate every misstatement identified, including clearly trivial ones",
+          "correct": false,
+          "misconception": "removes the clearly trivial threshold and accumulates everything",
+          "why": "SA 450 requires accumulation of misstatements other than those that are clearly trivial, and requires the auditor to set that threshold. Accumulating everything ignores a distinction the Standard draws."
+        },
+        {
+          "id": "d",
+          "text": "Communicate only the misstatements management corrected, since the uncorrected ones affect only the opinion",
+          "correct": false,
+          "misconception": "reverses the requirement and withholds precisely the misstatements governance needs to see",
+          "why": "SA 450 directs the communication at uncorrected misstatements. Corrected ones may be communicated too, but the requirement runs the other way round."
+        }
+      ],
+      "citation": {
+        "source": "SA 450",
+        "ref": "para 11 and 12"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "At the end of the audit you have accumulated misstatements of ₹18 lakh that management has declined to correct. Materiality for the financial statements as a whole is ₹90 lakh."
+    },
+    {
+      "id": "p3.sa450.uncorrected-misstatements.i02",
+      "conceptId": "p3.sa450.uncorrected-misstatements",
+      "stem": "How do you evaluate whether these are material?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treat each separately, and conclude none is material because none exceeds ₹45 lakh",
+          "correct": false,
+          "misconception": "evaluates misstatements one at a time when the standard requires the aggregate",
+          "why": "This is the specific error SA 450 exists to prevent. Three misstatements, each comfortably below materiality, add to more than it, and financial statements are read as a whole rather than one adjustment at a time."
+        },
+        {
+          "id": "b",
+          "text": "Aggregate them, and also consider whether any one of them is material by its nature regardless of size",
+          "correct": true,
+          "why": "The three together are ₹48 lakh, above the ₹45 lakh threshold, and SA 450 requires the aggregate to be evaluated rather than each item alone. Size is not the only test either — a misstatement can be material by nature, for instance one that turns a loss into a profit or that touches a related party."
+        },
+        {
+          "id": "c",
+          "text": "Net them off, since the overstated prepayment partly offsets the understated provision",
+          "correct": false,
+          "misconception": "nets misstatements in opposite directions without regard to what they affect",
+          "why": "Offsetting is not automatic. These touch different balances and different assertions, and netting them would hide two errors behind each other rather than show that both exist."
+        },
+        {
+          "id": "d",
+          "text": "Report only the largest one to those charged with governance",
+          "correct": false,
+          "misconception": "filters what is communicated by size rather than communicating the accumulation",
+          "why": "SA 450 requires uncorrected misstatements to be communicated and their effect on the opinion explained. Reporting one of three withholds exactly the aggregate that matters."
+        }
+      ],
+      "citation": {
+        "source": "SA 450",
+        "ref": "para 11"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You have accumulated three uncorrected misstatements: an understated provision of ₹18 lakh, an overstated prepayment of ₹9 lakh, and an unrecorded liability of ₹21 lakh. Materiality for the financial statements as a whole is ₹45 lakh. Management declines to adjust any of them."
+    },
+    {
+      "id": "p3.sa500.sufficient-appropriate",
+      "conceptId": "p3.sa500.sufficient-appropriate",
+      "stem": "What is the difference between sufficiency and appropriateness of audit evidence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sufficiency is the measure of quantity; appropriateness is the measure of quality, being relevance and reliability",
+          "correct": true,
+          "why": "SA 500 defines the two separately and they interact: the higher the assessed risk, the more evidence is likely to be required, and the poorer its quality, the more of it may be needed. Both must be satisfied — neither alone supports an opinion."
+        },
+        {
+          "id": "b",
+          "text": "Appropriateness concerns only the source of the evidence, not whether it bears on the assertion",
+          "correct": false,
+          "misconception": "reduces appropriateness to reliability and drops relevance out of the definition",
+          "why": "Appropriateness has two limbs in SA 500: relevance and reliability. Evidence from an impeccable source that addresses the wrong assertion is not appropriate."
+        },
+        {
+          "id": "c",
+          "text": "They are two names for the same test of whether enough evidence was obtained",
+          "correct": false,
+          "misconception": "collapses two defined terms into one and loses the quality dimension",
+          "why": "SA 500 defines them in separate sub-paragraphs because they measure different things. Quantity says nothing about whether the evidence bears on the assertion at issue."
+        },
+        {
+          "id": "d",
+          "text": "More evidence always compensates for evidence of poor quality",
+          "correct": false,
+          "misconception": "assumes quantity can substitute for quality without limit",
+          "why": "SA 500 notes that obtaining more evidence may not compensate for its poor quality. A large volume of unreliable evidence remains unreliable."
+        }
+      ],
+      "citation": {
+        "source": "SA 500",
+        "ref": "para 5(b), 5(e)"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa500.sufficient-appropriate.i02",
+      "conceptId": "p3.sa500.sufficient-appropriate",
+      "stem": "Which carries the greatest weight, and why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All three equally, since together they agree to the same amount",
+          "correct": false,
+          "misconception": "treats agreement between sources as making each of them reliable",
+          "why": "Three sources agreeing is useful, but two of these are not independent of the entity. If the entity's records are wrong, its ledger and its photocopy will be wrong together."
+        },
+        {
+          "id": "b",
+          "text": "The purchase ledger printout, because it is the entity's own accounting record and ties to the financial statements",
+          "correct": false,
+          "misconception": "mistakes agreement with the accounts for corroboration of them",
+          "why": "It ties to the financial statements because it is where the financial statements came from. Agreeing a figure to its own source proves arithmetic, not existence."
+        },
+        {
+          "id": "c",
+          "text": "The supplier's statement, because evidence from an independent external source is more reliable than evidence generated inside the entity",
+          "correct": true,
+          "why": "SA 500 ranks reliability partly by origin. A document obtained directly from an independent third party has not passed through the hands of the people whose figures are under audit, which is what makes it stronger than anything the entity produced itself."
+        },
+        {
+          "id": "d",
+          "text": "The photocopied invoice, because it is the original commercial document underlying the transaction",
+          "correct": false,
+          "misconception": "values the document type while ignoring that it is a copy supplied by the client",
+          "why": "An original invoice would be stronger than a ledger, but a photocopy handed over by the entity has both lost the safeguards of an original and travelled through the entity. SA 500 treats copies as less reliable than originals."
+        }
+      ],
+      "citation": {
+        "source": "SA 500",
+        "ref": "para A31"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You are verifying a trade payable of ₹2.4 crore. Three things are available: the supplier's statement sent directly to you, the client's purchase ledger printout, and a photocopy of the supplier invoice given to you by the client's accounts clerk."
+    },
+    {
+      "id": "p3.sa501.inventory-attendance",
+      "conceptId": "p3.sa501.inventory-attendance",
+      "stem": "What does SA 501 require of you?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Attend the count in every audit, whether or not inventory is material",
+          "correct": false,
+          "misconception": "detaches the requirement from materiality and extends it to every engagement",
+          "why": "The requirement in SA 501 is conditional on inventory being material to the financial statements. Where it is not, the auditor's response is governed by the ordinary risk assessment."
+        },
+        {
+          "id": "b",
+          "text": "Attend the physical inventory counting, unless attendance is impracticable",
+          "correct": true,
+          "why": "SA 501 requires attendance at the physical count where inventory is material, to evaluate management's instructions, observe the count, inspect the inventory and perform test counts. Impracticability is the only exception, and inconvenience is not impracticability."
+        },
+        {
+          "id": "c",
+          "text": "Attend only in the first year of the engagement, and rely on that year thereafter",
+          "correct": false,
+          "misconception": "treats attendance as a one-time procedure rather than one required each period",
+          "why": "The requirement attaches to each audit in which inventory is material. Quantities are re-counted each year, so last year's observation is evidence about last year's balance."
+        },
+        {
+          "id": "d",
+          "text": "Obtain a certificate from management as to the quantities held, in place of attending",
+          "correct": false,
+          "misconception": "accepts a management representation in place of the auditor's own observation",
+          "why": "A written representation is not a substitute for evidence that could reasonably be obtained directly. SA 580 says so expressly, and here the count was accessible."
+        }
+      ],
+      "citation": {
+        "source": "SA 501",
+        "ref": "para 4"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Inventory is ₹6 crore against a balance sheet total of ₹40 crore and is material to the financial statements. The count is held at four warehouses on 31 March, and none of them is inaccessible."
+    },
+    {
+      "id": "p3.sa505.negative-confirmations",
+      "conceptId": "p3.sa505.negative-confirmations",
+      "stem": "When may negative confirmations be used as the sole substantive procedure to address an assessed risk of material misstatement at the assertion level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wherever positive replies are proving slow to arrive",
+          "correct": false,
+          "misconception": "chooses the procedure for administrative convenience rather than on the conditions the Standard sets",
+          "why": "Slow replies call for follow-up or alternative procedures. They do not alter the assessed risk or the character of the population, which are what the conditions turn on."
+        },
+        {
+          "id": "b",
+          "text": "Wherever positive confirmations could be used, since the two are interchangeable",
+          "correct": false,
+          "misconception": "treats a weaker form of evidence as equivalent to a stronger one",
+          "why": "A positive confirmation produces evidence whether or not the balance is agreed. A negative one produces evidence only if the recipient disagrees and troubles to say so."
+        },
+        {
+          "id": "c",
+          "text": "Only when risk is low, controls are effective, the population is large and homogeneous, a very low exception rate is expected, and recipients are unlikely to disregard the request",
+          "correct": true,
+          "why": "SA 505 sets all these conditions together because a negative confirmation produces evidence only from the absence of a reply, which is weak. The conditions exist to make silence mean something."
+        },
+        {
+          "id": "d",
+          "text": "Freely, because a non-reply to a negative confirmation is evidence that the balance is correct",
+          "correct": false,
+          "misconception": "reads silence as agreement when it may only mean the request was ignored or never arrived",
+          "why": "SA 505 states that unreturned negative confirmations do not explicitly provide evidence that the intended party received the request or verified it. Silence is ambiguous."
+        }
+      ],
+      "citation": {
+        "source": "SA 505",
+        "ref": "para 15"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa505.negative-confirmations.i02",
+      "conceptId": "p3.sa505.negative-confirmations",
+      "stem": "What does SA 505 require you to do about the six non-replies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obtain a written representation from management that the six balances are recoverable",
+          "correct": false,
+          "misconception": "substitutes a representation for evidence the auditor can obtain independently",
+          "why": "SA 580 makes a representation insufficient on its own, and recoverability is a different question from existence anyway. Subsequent receipts would settle both."
+        },
+        {
+          "id": "b",
+          "text": "Extend the sample by sending requests to twenty more customers",
+          "correct": false,
+          "misconception": "replaces evidence about specific balances with evidence about different ones",
+          "why": "Confirming other customers says nothing about these six. The gap is in named balances totalling ₹1.6 crore, and only work on those balances closes it."
+        },
+        {
+          "id": "c",
+          "text": "Treat the silence as agreement, because a customer who disputed the balance would have replied",
+          "correct": false,
+          "misconception": "reads a non-reply to a positive request as if it were a non-reply to a negative one",
+          "why": "That inference belongs to negative confirmation, which is why negative confirmation is permitted only in narrow circumstances. With a positive request, silence means nothing was obtained."
+        },
+        {
+          "id": "d",
+          "text": "Perform alternative procedures on each, such as examining subsequent receipts and the underlying despatch documents",
+          "correct": true,
+          "why": "A positive request that goes unanswered gives no evidence at all, and the balances are well above performance materiality. SA 505 requires alternative procedures to obtain relevant and reliable evidence for the balances the confirmations did not settle."
+        }
+      ],
+      "citation": {
+        "source": "SA 505",
+        "ref": "para 12"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You send positive confirmation requests to twenty customers. Six do not reply, despite two follow-ups. Those six balances total ₹1.6 crore against performance materiality of ₹40 lakh."
+    },
+    {
+      "id": "p3.sa510.opening-balances.i01",
+      "conceptId": "p3.sa510.opening-balances",
+      "stem": "What do you have to do about the opening inventory figure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obtain sufficient appropriate audit evidence about whether it contains misstatements that materially affect the current year",
+          "correct": true,
+          "why": "SA 510 makes opening balances the incoming auditor's responsibility to the extent they affect the current period. Opening inventory flows straight into current-year cost of sales, so a misstatement in it misstates this year's profit even though the balance itself was struck last year."
+        },
+        {
+          "id": "b",
+          "text": "Nothing, because opening balances are outside the period covered by your audit report",
+          "correct": false,
+          "misconception": "confuses the period audited with the balances that affect it",
+          "why": "The report covers this year, and this year's figures depend on the opening balances. That dependence is exactly why SA 510 exists as a separate standard."
+        },
+        {
+          "id": "c",
+          "text": "Qualify the opinion, since you did not observe the previous year's physical inventory count",
+          "correct": false,
+          "misconception": "goes straight to a modification without first trying to obtain the evidence",
+          "why": "A modification arises only if sufficient appropriate evidence cannot be obtained. Other procedures — reviewing the predecessor's papers, testing the roll-forward, examining subsequent sales — may well settle the balance without one."
+        },
+        {
+          "id": "d",
+          "text": "Accept the figure, because the predecessor auditor issued an unmodified opinion on it",
+          "correct": false,
+          "misconception": "treats the previous auditor's opinion as evidence for the incoming auditor",
+          "why": "Another auditor's opinion is not audit evidence for you. Reading the predecessor's working papers may help you obtain evidence, but the unmodified opinion by itself does not discharge the requirement."
+        }
+      ],
+      "citation": {
+        "source": "SA 510",
+        "ref": "para 6"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You have been appointed for the first time as auditor of a trading company for the year ended 31 March 2026. The previous year was audited by another firm, which issued an unmodified opinion. Closing inventory of the previous year, which is the opening inventory of yours, is 18 per cent of total assets."
+    },
+    {
+      "id": "p3.sa520.when-analytical-procedures-are-required.i01",
+      "conceptId": "p3.sa520.when-analytical-procedures-are-required",
+      "stem": "At which points in an audit are analytical procedures required rather than optional?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As substantive procedures for every material account balance",
+          "correct": false,
+          "misconception": "treats the optional substantive use as compulsory",
+          "why": "Substantive analytical procedures are one permitted response to an assessed risk, chosen when the relationship being tested is plausible and predictable enough to be reliable. The auditor may instead rely entirely on tests of details."
+        },
+        {
+          "id": "b",
+          "text": "During risk assessment, and near the end of the audit when forming an overall conclusion",
+          "correct": true,
+          "why": "These are the two mandatory uses. Risk assessment analytical procedures help identify matters the auditor was not previously aware of; the ones near the end test whether the financial statements as a whole remain consistent with the auditor's understanding of the entity."
+        },
+        {
+          "id": "c",
+          "text": "Only near the end of the audit, when forming an overall conclusion",
+          "correct": false,
+          "misconception": "remembers the final review and forgets the risk assessment use",
+          "why": "The final overall review is mandatory, but so is the use during risk assessment. Omitting the planning-stage procedures loses the point at which unexpected relationships are most useful — before the audit approach has been fixed."
+        },
+        {
+          "id": "d",
+          "text": "Only during planning, since by the end the detailed testing has already been done",
+          "correct": false,
+          "misconception": "assumes detailed testing makes the final overall review redundant",
+          "why": "Detailed testing is done account by account. The procedures near the end look at the statements as a whole, which is a different question and one no amount of account-level testing answers."
+        }
+      ],
+      "citation": {
+        "source": "SA 520",
+        "ref": "para 6"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa530.project-misstatements.i01",
+      "conceptId": "p3.sa530.project-misstatements",
+      "stem": "How do you use the ₹5 lakh you found?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Project it across the population, and compare the projected misstatement against performance materiality",
+          "correct": true,
+          "why": "SA 530 requires projection. The ₹5 lakh was found in a sample representing ₹40 crore, so it is evidence about the whole balance. Projected on value, ₹5 lakh in ₹2 crore scales to about ₹1 crore across ₹40 crore — well past the ₹60 lakh threshold, which the raw ₹5 lakh would have hidden completely."
+        },
+        {
+          "id": "b",
+          "text": "Treat ₹5 lakh as the misstatement, since that is the only error actually identified",
+          "correct": false,
+          "misconception": "treats a sample result as if it were a complete examination",
+          "why": "That is the error the whole standard exists to prevent. Testing 5 per cent of the value and reporting only what that 5 per cent contained understates the population by construction."
+        },
+        {
+          "id": "c",
+          "text": "Ignore it, because ₹5 lakh is below performance materiality",
+          "correct": false,
+          "misconception": "compares an unprojected sample error against a population-level threshold",
+          "why": "Performance materiality applies to the population. Comparing an unprojected sample error against it puts the two on different scales, and a large population misstatement passes."
+        },
+        {
+          "id": "d",
+          "text": "Extend the sample to all 2,000 balances before concluding",
+          "correct": false,
+          "misconception": "abandons sampling at the first error rather than using its result",
+          "why": "Testing the whole population is always available but is not the required response to finding an error. SA 530 asks the auditor to project first; the projected figure, together with the reason for the errors, is what decides whether more work is needed."
+        }
+      ],
+      "citation": {
+        "source": "SA 530",
+        "ref": "para 14"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Trade receivables total ₹40 crore across 2,000 balances. You select a sample of 100 balances totalling ₹2 crore and find overstatements of ₹5 lakh within it. Performance materiality is ₹60 lakh."
+    },
+    {
+      "id": "p3.sa550.outside-normal-course.i01",
+      "conceptId": "p3.sa550.outside-normal-course",
+      "stem": "What does SA 550 require beyond checking the disclosure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treat it as a significant risk, inspect the underlying agreement, and evaluate whether the business rationale suggests fraud",
+          "correct": true,
+          "why": "Lending money is outside the normal course of business for a pump manufacturer, the amount is significant, and the counterparty is related. SA 550 makes that combination a significant risk and asks specifically whether the rationale points to fraudulent reporting or concealed misappropriation."
+        },
+        {
+          "id": "b",
+          "text": "Report the loan to those charged with governance and take no further audit action",
+          "correct": false,
+          "misconception": "mistakes communicating a matter for auditing it",
+          "why": "Communication is required and is not the response. SA 550 asks for inspection of the contract and an evaluation of the rationale, which is audit work rather than reporting."
+        },
+        {
+          "id": "c",
+          "text": "Obtain a written representation from management that the loan was on arm's length terms",
+          "correct": false,
+          "misconception": "relies on a representation to settle a matter it cannot settle",
+          "why": "Under SA 580 a written representation is never sufficient appropriate evidence on its own. Here it would substitute management's word for the very rationale under examination — and the terms described are plainly not arm's length."
+        },
+        {
+          "id": "d",
+          "text": "Nothing further, because the transaction has been identified and disclosed in the related party note",
+          "correct": false,
+          "misconception": "treats correct disclosure as the whole of the auditor's responsibility",
+          "why": "Disclosure is one requirement. It says nothing about whether the transaction is what it appears to be, which is the question a significant risk obliges the auditor to answer."
+        }
+      ],
+      "citation": {
+        "source": "SA 550",
+        "ref": "para 18 and 23"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A company that manufactures pumps lends ₹9 crore, interest free and repayable on demand, to a partnership firm in which the managing director's spouse is a partner. The company has never made a loan to anyone before. The loan is disclosed in the related party note."
+    },
+    {
+      "id": "p3.sa560.dual-dating",
+      "conceptId": "p3.sa560.dual-dating",
+      "stem": "What is the effect of dual dating on your responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Responsibility for events after 20 May is limited to the amendment described",
+          "correct": true,
+          "why": "SA 560 permits an additional date restricted to the amendment, which confines the auditor's procedures on subsequent events for the period after the original report date to that amendment. Without dual dating, the later date would carry responsibility for everything up to it."
+        },
+        {
+          "id": "b",
+          "text": "Dual dating requires the entire report to be reissued with fresh procedures on all subsequent events",
+          "correct": false,
+          "misconception": "requires the full procedures that dual dating is designed to avoid",
+          "why": "Extending procedures to all subsequent events up to the new date is what re-dating requires. Dual dating restricts the procedures to the amendment, which is its whole purpose."
+        },
+        {
+          "id": "c",
+          "text": "Dual dating is not permitted once the report has been issued to management",
+          "correct": false,
+          "misconception": "invents a bar on dual dating that the Standard does not contain",
+          "why": "SA 560 addresses amendments made before the financial statements are issued and expressly provides for the additional date. Nothing turns on whether a draft reached management."
+        },
+        {
+          "id": "d",
+          "text": "Responsibility extends to all events occurring up to 4 June",
+          "correct": false,
+          "misconception": "describes the effect of simply re-dating the report, which is the alternative the auditor did not take",
+          "why": "Re-dating the whole report to 4 June would carry that consequence and would require subsequent-events procedures up to the new date. Dual dating exists so that the auditor may avoid it."
+        }
+      ],
+      "citation": {
+        "source": "SA 560",
+        "ref": "para 12(b)"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Your report on the 31 March financial statements is dated 20 May. On 4 June, before the statements are issued, a major debtor is declared insolvent. Management amends the financial statements for that event alone, and you amend your report using dual dating."
+    },
+    {
+      "id": "p3.sa570.material-uncertainty-disclosed",
+      "conceptId": "p3.sa570.material-uncertainty-disclosed",
+      "stem": "How should your report deal with this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Qualified opinion, because a material uncertainty exists",
+          "correct": false,
+          "misconception": "treats the existence of uncertainty as itself a reason to modify",
+          "why": "Adequate disclosure of an uncertainty is not a misstatement. The opinion is modified only if the disclosure is inadequate — which is the opposite of these facts."
+        },
+        {
+          "id": "b",
+          "text": "Unmodified opinion with an Emphasis of Matter paragraph",
+          "correct": false,
+          "misconception": "reaches for the general emphasis paragraph where a specific required section exists",
+          "why": "SA 570 (Revised) replaced the emphasis-paragraph treatment with a dedicated, separately headed section. Using SA 706 here omits the heading the standard requires."
+        },
+        {
+          "id": "c",
+          "text": "Disclaimer of opinion, because the outcome cannot be predicted",
+          "correct": false,
+          "misconception": "confuses an uncertain future outcome with an inability to obtain evidence",
+          "why": "Evidence about management's assessment was available and was obtained. SA 570 contemplates a disclaimer only in multiple-uncertainty situations of an altogether different order."
+        },
+        {
+          "id": "d",
+          "text": "Unmodified opinion, with a separate section headed \"Material Uncertainty Related to Going Concern\"",
+          "correct": true,
+          "why": "SA 570 (Revised) requires exactly this when a material uncertainty exists and is adequately disclosed: the opinion stays unmodified and a separate, specifically headed section draws attention to the disclosure."
+        }
+      ],
+      "citation": {
+        "source": "SA 570 (Revised)",
+        "ref": "para 22"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A client has recurring losses and a net current liability position. Management's going concern assessment concludes the entity remains a going concern, discloses the circumstances and the material uncertainty adequately in the notes, and you agree with that assessment."
+    },
+    {
+      "id": "p3.sa570.material-uncertainty-disclosed.i02",
+      "conceptId": "p3.sa570.material-uncertainty-disclosed",
+      "stem": "How should your report deal with this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A qualified opinion, because a material uncertainty exists",
+          "correct": false,
+          "misconception": "modifies the opinion for an uncertainty the accounts have properly disclosed",
+          "why": "A modification says something is wrong with the financial statements. Here they are right — they disclose the uncertainty exactly as they should. Qualifying would penalise good disclosure."
+        },
+        {
+          "id": "b",
+          "text": "An unmodified opinion with an Emphasis of Matter paragraph",
+          "correct": false,
+          "misconception": "uses the general Emphasis of Matter where the standard gives a dedicated section",
+          "why": "Before the revision this was the treatment. SA 570 (Revised) replaced it with a section under its own heading, so that going concern uncertainty is found in the same place in every report rather than among other emphasised matters."
+        },
+        {
+          "id": "c",
+          "text": "An adverse opinion, because the company cannot pay its debts",
+          "correct": false,
+          "misconception": "treats financial difficulty itself as a misstatement",
+          "why": "An adverse opinion is for financial statements that are materially and pervasively wrong. A company in difficulty whose accounts say so honestly is the case for which the going concern section exists."
+        },
+        {
+          "id": "d",
+          "text": "An unmodified opinion, with a separate Material Uncertainty Related to Going Concern section drawing attention to the note",
+          "correct": true,
+          "why": "The basis is appropriate and the disclosure is adequate, so there is nothing wrong with the financial statements and the opinion stands unmodified. SA 570 (Revised) then requires a separate section under that heading, pointing to the note and stating that the opinion is not modified in respect of the matter."
+        }
+      ],
+      "citation": {
+        "source": "SA 570 (Revised)",
+        "ref": "para 22"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A company has net current liabilities of ₹56 crore and has defaulted on a term loan. The directors have prepared the accounts on a going concern basis relying on a letter of support from the parent, and the notes describe the default, the reliance and the uncertainty in full. You are satisfied the going concern basis is appropriate but that a material uncertainty exists."
+    },
+    {
+      "id": "p3.sa580.representations-are-not-enough.i01",
+      "conceptId": "p3.sa580.representations-are-not-enough",
+      "stem": "What is wrong with relying on the representation letter here?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The letter is only valid if dated the same day as the auditor's report",
+          "correct": false,
+          "misconception": "substitutes a dating rule for the sufficiency question",
+          "why": "Dating matters — representations are dated as near as practicable to, but not after, the date of the auditor's report — but a correctly dated letter is still not sufficient appropriate evidence on its own."
+        },
+        {
+          "id": "b",
+          "text": "Nothing is wrong, because management is responsible for the disclosures and has confirmed them in writing",
+          "correct": false,
+          "misconception": "treats management's own assertion as verification of that assertion",
+          "why": "Management's responsibility for the financial statements is what creates the need for an audit; it does not discharge it. A representation restates the assertion under audit rather than corroborating it."
+        },
+        {
+          "id": "c",
+          "text": "The letter should have been obtained from those charged with governance instead",
+          "correct": false,
+          "misconception": "confuses who signs the letter with what the letter can prove",
+          "why": "Who signs it is a separate requirement, and the letter is properly requested from management with appropriate responsibilities for the financial statements. Changing the signatory would not make the representation sufficient evidence."
+        },
+        {
+          "id": "d",
+          "text": "Written representations are never sufficient appropriate audit evidence on their own about the matters they cover",
+          "correct": true,
+          "why": "SA 580 says this in terms. The letter is evidence, and its absence would itself be a problem, but it does not replace procedures on related parties. That management asserts something is precisely what the audit exists to test."
+        }
+      ],
+      "citation": {
+        "source": "SA 580",
+        "ref": "para 4"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "Management has signed a representation letter confirming that all related party transactions have been disclosed. You have performed no other procedures on related parties, on the basis that the letter covers the point."
+    },
+    {
+      "id": "p3.sa600.division-of-responsibility.i01",
+      "conceptId": "p3.sa600.division-of-responsibility",
+      "stem": "How does your audit report deal with the three branches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It says nothing, because the principal auditor's opinion covers the whole company",
+          "correct": false,
+          "misconception": "treats silence as the way to give a single undivided opinion",
+          "why": "The opinion does cover the whole company, and that is exactly why the division has to be disclosed. Saying nothing leaves the reader assuming the principal auditor did all of it."
+        },
+        {
+          "id": "b",
+          "text": "It names each of the three other firms and reproduces their opinions",
+          "correct": false,
+          "misconception": "substitutes attaching other reports for stating the division",
+          "why": "What SA 600 asks for is the magnitude of the divided portion, not a compendium of other reports. Reproducing them would not tell the reader how much of the whole they represent."
+        },
+        {
+          "id": "c",
+          "text": "It excludes the three branches from the scope of the opinion",
+          "correct": false,
+          "misconception": "confuses dividing responsibility with limiting the scope of the opinion",
+          "why": "The opinion is on the financial statements as a whole. Carving out branches would leave an opinion on part of a set of accounts, which is not what is being reported on."
+        },
+        {
+          "id": "d",
+          "text": "It states the division of responsibility, giving the magnitude of the portion audited by the other auditors",
+          "correct": true,
+          "why": "SA 600 has the principal auditor disclose that part of the entity was audited by others and how large that part is. The reader then knows how much of the opinion rests on work the principal auditor did not perform."
+        }
+      ],
+      "citation": {
+        "source": "SA 600",
+        "ref": "para 17"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "draft",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You are the auditor of a company with four branches. Three are audited by other firms, whose reports you have received and reviewed. Those three branches account for 46 per cent of total assets and 39 per cent of revenue."
+    },
+    {
+      "id": "p3.sa610.direct-assistance",
+      "conceptId": "p3.sa610.direct-assistance",
+      "stem": "To what extent may you use internal auditors to provide direct assistance on the audit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Not at all — the Standard does not permit direct assistance",
+          "correct": true,
+          "why": "SA 610 (Revised) as issued in India does not permit the external auditor to use internal auditors to provide direct assistance. The external auditor may still use the work of the internal audit function, which is a different thing."
+        },
+        {
+          "id": "b",
+          "text": "Only with the written consent of those charged with governance",
+          "correct": false,
+          "misconception": "assumes governance consent can authorise what the Standard forbids",
+          "why": "Those charged with governance cannot waive a requirement of the Standards. Consent is irrelevant to a prohibition."
+        },
+        {
+          "id": "c",
+          "text": "For any area, provided the external auditor directs, supervises and reviews the work",
+          "correct": false,
+          "misconception": "applies the international standard's direct-assistance regime, which India did not adopt",
+          "why": "The direction-supervision-review conditions belong to a version of the standard that permits direct assistance. The Indian SA 610 (Revised) removes the permission entirely, so the conditions never arise."
+        },
+        {
+          "id": "d",
+          "text": "Only for areas of low assessed risk of material misstatement",
+          "correct": false,
+          "misconception": "treats a prohibition as a risk-graded restriction",
+          "why": "The prohibition is not calibrated to risk. Low risk does not create a permission the Standard does not give."
+        }
+      ],
+      "citation": {
+        "source": "SA 610 (Revised)",
+        "ref": "para 5 and the Indian scope limitation"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa620.sole-responsibility.i01",
+      "conceptId": "p3.sa620.sole-responsibility",
+      "stem": "How should the valuer's involvement be reflected in your audit report?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mentioned as a Key Audit Matter, since an expert was needed",
+          "correct": false,
+          "misconception": "treats the use of an expert as itself a Key Audit Matter",
+          "why": "Key Audit Matters are the matters of most significance in the audit, selected from those communicated to those charged with governance. Engaging an expert may accompany such a matter but does not create one."
+        },
+        {
+          "id": "b",
+          "text": "Named, with a statement that responsibility for the land valuation rests with the valuer",
+          "correct": false,
+          "misconception": "believes responsibility can be transferred to the expert by disclosing them",
+          "why": "This is the opposite of what SA 620 says. The auditor's responsibility for the opinion is sole, and no wording in the report can move part of it to an expert."
+        },
+        {
+          "id": "c",
+          "text": "Not mentioned at all, unless law or regulation requires it",
+          "correct": true,
+          "why": "SA 620 keeps the expert out of the report by default. Naming them invites the reader to think responsibility has been divided, when the auditor's responsibility for the opinion is undiminished."
+        },
+        {
+          "id": "d",
+          "text": "Named in the Basis for Opinion section, to show which part of the evidence came from an expert",
+          "correct": false,
+          "misconception": "treats a reference to the expert as a helpful disclosure rather than a misleading one",
+          "why": "A voluntary reference suggests the opinion rests partly on someone else. SA 620 permits a reference only where law or regulation requires it, and then only with a statement that it does not reduce the auditor's responsibility."
+        }
+      ],
+      "citation": {
+        "source": "SA 620",
+        "ref": "para 14 and 15"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You engage a registered valuer to value a plot of land carried at ₹22 crore. The valuer's report supports the carrying amount. You are satisfied with the valuer's competence, capabilities and objectivity, and with the reasonableness of the assumptions used."
+    },
+    {
+      "id": "p3.sa700.opinion-section-first.i01",
+      "conceptId": "p3.sa700.opinion-section-first",
+      "stem": "In what order do the first two sections of an auditor's report appear under SA 700 (Revised)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Basis for Opinion, then Opinion",
+          "correct": false,
+          "misconception": "assumes reasons must precede a conclusion, as in the pre-revision format",
+          "why": "This was the older shape, where the reader worked through scope and basis before reaching the opinion. The revision reversed it precisely because the opinion is what readers came for."
+        },
+        {
+          "id": "b",
+          "text": "Management's Responsibilities, then Opinion",
+          "correct": false,
+          "misconception": "opens with whose duty it is rather than with what was concluded",
+          "why": "The responsibilities sections sit well below the opinion and basis. Opening with them would bury the conclusion behind material the reader already assumes."
+        },
+        {
+          "id": "c",
+          "text": "Opinion, then Basis for Opinion",
+          "correct": true,
+          "why": "The revised reporting standards deliberately put the conclusion first. Basis for Opinion follows immediately, and includes the statement that the auditor is independent and has fulfilled the other ethical responsibilities."
+        },
+        {
+          "id": "d",
+          "text": "Key Audit Matters, then Opinion",
+          "correct": false,
+          "misconception": "promotes Key Audit Matters above the opinion itself",
+          "why": "Key Audit Matters appear later in the report, and only where SA 701 applies. They explain what most occupied the auditor; they never displace the opinion from first position."
+        }
+      ],
+      "citation": {
+        "source": "SA 700",
+        "ref": "para 21 and 28"
+      },
+      "difficultyPrior": 2,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa701.kam-scope",
+      "conceptId": "p3.sa701.kam-scope",
+      "stem": "For which audits is a Key Audit Matters section required?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Every audit, because the section replaces the basis-for-opinion section",
+          "correct": false,
+          "misconception": "treats key audit matters as a replacement for a section that remains required in every report",
+          "why": "The basis-for-opinion section is required by SA 700 in all reports. Key audit matters sit alongside it and describe matters of most significance, not the basis of the opinion."
+        },
+        {
+          "id": "b",
+          "text": "Any audit where the auditor would otherwise modify the opinion, since a key audit matter can serve instead",
+          "correct": false,
+          "misconception": "uses a key audit matter as a substitute for modifying the opinion",
+          "why": "SA 701 states that communicating a key audit matter is not a substitute for a modification when one is required by SA 705, nor for the going concern reporting required by SA 570."
+        },
+        {
+          "id": "c",
+          "text": "Audits of complete sets of general purpose financial statements of listed entities, and where law or the engagement terms otherwise require it",
+          "correct": true,
+          "why": "SA 701 applies to audits of complete sets of general purpose financial statements of listed entities, to circumstances where the auditor is otherwise required by law or regulation to communicate key audit matters, and where the auditor decides to do so voluntarily."
+        },
+        {
+          "id": "d",
+          "text": "Every audit, whatever the entity",
+          "correct": false,
+          "misconception": "extends a listed-entity requirement to all audits",
+          "why": "SA 701 states its scope narrowly. For an unlisted entity the auditor may communicate key audit matters, but is not required to."
+        }
+      ],
+      "citation": {
+        "source": "SA 701",
+        "ref": "para 5"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null
+    },
+    {
+      "id": "p3.sa705.qualified-vs-adverse",
+      "conceptId": "p3.sa705.qualified-vs-adverse",
+      "stem": "Which opinion should you express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unmodified opinion with an Emphasis of Matter paragraph",
+          "correct": false,
+          "misconception": "uses an emphasis paragraph as a substitute for modifying the opinion",
+          "why": "SA 706 permits an Emphasis of Matter only for a matter appropriately presented or disclosed. An uncorrected material misstatement is neither, and SA 706 expressly forbids using the paragraph in place of a modification."
+        },
+        {
+          "id": "b",
+          "text": "Disclaimer of opinion",
+          "correct": false,
+          "misconception": "applies the inability-to-obtain-evidence branch to a known misstatement",
+          "why": "A disclaimer addresses an inability to obtain sufficient appropriate evidence. Here the evidence was obtained and the amount is known; the problem is that management will not correct it."
+        },
+        {
+          "id": "c",
+          "text": "Adverse opinion",
+          "correct": false,
+          "misconception": "treats a large rupee amount as automatically pervasive",
+          "why": "Pervasiveness is a separate test from size. SA 705 para 5 defines it by whether effects are confined to specific elements, represent a substantial proportion, or are fundamental to users' understanding — none of which the facts here establish."
+        },
+        {
+          "id": "d",
+          "text": "Qualified opinion",
+          "correct": true,
+          "why": "The misstatement is material but confined to one line item, so it is not pervasive. SA 705 requires a qualified opinion where misstatements are material but not pervasive."
+        }
+      ],
+      "citation": {
+        "source": "SA 705",
+        "ref": "para 5, 7(a)"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You are auditing a manufacturer. Inventory is overstated by ₹4.2 crore against a materiality of ₹1.1 crore. Inventory is one line item of many; the rest of the financial statements are unaffected and the misstatement does not obscure the overall picture. Management refuses to adjust."
+    },
+    {
+      "id": "p3.sa705.qualified-vs-adverse.i02",
+      "conceptId": "p3.sa705.qualified-vs-adverse",
+      "stem": "Which opinion should you express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unmodified opinion with an Emphasis of Matter paragraph",
+          "correct": false,
+          "misconception": "uses an Emphasis of Matter to soften a misstatement instead of modifying",
+          "why": "An Emphasis of Matter draws attention to something properly presented in the statements. It can never be used to flag a misstatement, and using it that way is expressly ruled out."
+        },
+        {
+          "id": "b",
+          "text": "Adverse opinion",
+          "correct": true,
+          "why": "The misstatement runs through revenue, receivables, inventory and cost of sales, so its effects are not confined to specific elements and represent a substantial proportion of the statements. That is pervasiveness, and a material and pervasive misstatement gives an adverse opinion."
+        },
+        {
+          "id": "c",
+          "text": "Disclaimer of opinion",
+          "correct": false,
+          "misconception": "confuses a known misstatement with an inability to obtain evidence",
+          "why": "A disclaimer is for the auditor being unable to obtain sufficient appropriate evidence. You have the evidence and know exactly what is wrong; the problem is the accounting, not access to information."
+        },
+        {
+          "id": "d",
+          "text": "Qualified opinion",
+          "correct": false,
+          "misconception": "reaches for a qualification without testing whether the effects are confined",
+          "why": "A qualification is for misstatements that are material but not pervasive. Here the wrong policy touches most of the primary statement, which is the condition the adverse opinion exists for."
+        }
+      ],
+      "citation": {
+        "source": "SA 705",
+        "ref": "para 5, 8"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "You are auditing a company whose entire revenue recognition policy is wrong: it recognises revenue on despatch of goods held on consignment, which are not yet sold. Revenue, receivables, inventory, cost of sales and every ratio derived from them are affected. Management will not change the policy."
+    },
+    {
+      "id": "p3.sa706.eom-vs-other-matter",
+      "conceptId": "p3.sa706.eom-vs-other-matter",
+      "stem": "Which paragraphs do these two matters call for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Emphasis of Matter paragraph for the tax dispute and an Other Matter paragraph for the predecessor auditor",
+          "correct": true,
+          "why": "SA 706 (Revised) uses an Emphasis of Matter for a matter appropriately presented or disclosed in the financial statements, and an Other Matter for a matter not so disclosed that is relevant to users' understanding of the audit, the auditor's responsibilities or the report. The tax dispute is disclosed; the predecessor auditor is not."
+        },
+        {
+          "id": "b",
+          "text": "Either paragraph will do for either matter, since the two are interchangeable",
+          "correct": false,
+          "misconception": "treats two paragraphs with different defined uses as interchangeable",
+          "why": "The distinction is whether the matter appears in the financial statements. An Emphasis of Matter must refer to something disclosed there, so it cannot carry the predecessor auditor point."
+        },
+        {
+          "id": "c",
+          "text": "An Emphasis of Matter paragraph for both, including the undisclosed predecessor auditor",
+          "correct": false,
+          "misconception": "uses an Emphasis of Matter for a matter the financial statements do not disclose",
+          "why": "An Emphasis of Matter draws attention to a disclosure. Where there is no disclosure to point at, the paragraph has nothing to emphasise."
+        },
+        {
+          "id": "d",
+          "text": "An Other Matter paragraph for both, which also modifies the opinion",
+          "correct": false,
+          "misconception": "believes an Other Matter paragraph modifies the opinion",
+          "why": "Neither paragraph modifies the opinion. SA 706 (Revised) states that both are used for matters other than those presented or disclosed that are materially misstated, and modification is governed by SA 705."
+        }
+      ],
+      "citation": {
+        "source": "SA 706 (Revised)",
+        "ref": "para 8 and 10"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "The financial statements disclose, in a note, an ongoing tax dispute whose outcome could be significant. Separately, the prior year's financial statements were audited by another firm, a fact not disclosed anywhere in the financial statements."
+    },
+    {
+      "id": "p3.sa710.corresponding-figures-not-in-opinion.i01",
+      "conceptId": "p3.sa710.corresponding-figures-not-in-opinion",
+      "stem": "How does your opinion treat the previous year's figures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The opinion covers the current period only, and does not refer to the corresponding figures",
+          "correct": true,
+          "why": "Figures shown alongside the current period for context are corresponding figures. They are an integral part of the current period's statements and are read only in relation to it, so the opinion does not extend to them as a separate period."
+        },
+        {
+          "id": "b",
+          "text": "The opinion covers neither period until the prior year's auditor confirms their figures",
+          "correct": false,
+          "misconception": "makes the current opinion conditional on the predecessor auditor",
+          "why": "Nothing in SA 710 makes the opinion wait on another auditor. Where the prior period was audited by someone else, that fact is stated in an Other Matter paragraph and the current opinion is given as normal."
+        },
+        {
+          "id": "c",
+          "text": "The opinion covers the current period, and a separate paragraph gives an opinion on the prior period",
+          "correct": false,
+          "misconception": "invents a second opinion where the standard gives one",
+          "why": "There is no such paragraph. Where a prior-period matter needs raising — for instance a previously modified opinion still unresolved — it is dealt with in the current opinion or in an Other Matter paragraph, not a second opinion."
+        },
+        {
+          "id": "d",
+          "text": "The opinion covers both periods separately, since both sets of amounts are presented",
+          "correct": false,
+          "misconception": "treats any presented comparative as a comparative financial statement",
+          "why": "That is the treatment for comparative financial statements, where each period is presented as a full set for its own sake. Corresponding figures are not that, and SA 710 keeps the two apart deliberately."
+        }
+      ],
+      "citation": {
+        "source": "SA 710",
+        "ref": "para 10 and 15"
+      },
+      "difficultyPrior": 4,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "A company presents its balance sheet and statement of profit and loss for the year ended 31 March 2026 with the previous year's amounts shown alongside as comparatives, in the form required by Schedule III. The comparatives are not separately headed as a second set of financial statements."
+    },
+    {
+      "id": "p3.sa720.other-information-no-opinion.i01",
+      "conceptId": "p3.sa720.other-information-no-opinion",
+      "stem": "What does SA 720 require you to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nothing, because the MD&A is not part of the audited financial statements",
+          "correct": false,
+          "misconception": "reads \"not audited\" as \"not the auditor's concern\"",
+          "why": "The auditor expresses no opinion on the other information, but SA 720 still requires reading it and acting on inconsistencies. Not auditing it is not the same as ignoring it."
+        },
+        {
+          "id": "b",
+          "text": "Treat it as an uncorrected material inconsistency and describe it in the Other Information section of your report",
+          "correct": true,
+          "why": "Reading the other information and identifying inconsistencies with the audited statements is exactly the responsibility SA 720 creates. Where management will not correct one, the auditor describes the uncorrected inconsistency in the Other Information section."
+        },
+        {
+          "id": "c",
+          "text": "Express a qualified conclusion on the Management Discussion and Analysis",
+          "correct": false,
+          "misconception": "invents an opinion on other information that SA 720 expressly does not give",
+          "why": "There is no opinion or conclusion on other information at all. The Other Information section says so in terms, and then describes any uncorrected inconsistency."
+        },
+        {
+          "id": "d",
+          "text": "Modify the opinion on the financial statements",
+          "correct": false,
+          "misconception": "modifies the opinion for something outside the financial statements",
+          "why": "The financial statements are right; the MD&A is wrong. Modifying the opinion would tell readers the audited figures cannot be relied on, which is false and is not what SA 720 asks for."
+        }
+      ],
+      "citation": {
+        "source": "SA 720",
+        "ref": "para 14 and 15"
+      },
+      "difficultyPrior": 3,
+      "reviewState": "shipped",
+      "applicableFrom": "2026-04-01",
+      "applicableTo": null,
+      "scenario": "The annual report contains a Management Discussion and Analysis stating that exports grew by 31 per cent during the year. The audited financial statements disclose export revenue that has grown by 12 per cent. Management declines to change the figure in the MD&A."
+    }
+  ]
+}
