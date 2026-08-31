@@ -1,9 +1,9 @@
 {
-  "contentVersion": "2026-09-01.2",
+  "contentVersion": "2026-09-01.3",
   "minAppVersion": "0.1.0",
-  "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/packs/2026-09-01.2.json",
-  "sha256": "2122c8b90498486fb94c1bab6858978c2ececbfe15f3a99d7f96d7a9040906f1",
-  "bytes": 8830510,
-  "signature": "fba2c650b029d169a8b744703594f8d065d9c531adddc0940e0eb78c78061d9ab0ae80bb2fc3ba9a154a1885b1f92b09d4e28b412ddcf04bbbcf12635923df04",
-  "shippedItems": 1998
+  "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/packs/2026-09-01.3.json",
+  "sha256": "c4076d86bfcc7e19cee6d1bf6c4a9c8d86d80a6015110b4cf5d0ee4699fa83cd",
+  "bytes": 8877260,
+  "signature": "328414c3bfabb8b8d1ebdbc57406531541cd571f71829ec623d688efb9b1b91310e574bdff03d8a0d95bb437475eb1562693c83fbc72a1a32d3dbcb444c40d08",
+  "shippedItems": 2008
 }
