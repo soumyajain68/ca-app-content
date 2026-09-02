@@ -1,10 +1,10 @@
 {
-  "contentVersion": "2026-09-02.13",
+  "contentVersion": "2026-09-02.14",
   "minAppVersion": "0.1.0",
-  "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/packs/2026-09-02.13.json",
-  "sha256": "823a57d54d41d1597a9ff6d9072fdd6456150be62a47605d4d528f5271f6b03c",
-  "bytes": 11729164,
-  "signature": "f742f3f4719e49055141c1e557fddba47713e6ae8d86b236a33c3ecc3e8997f69e8e8fa9135c3bc48419a069c0d6549441677f03c929cf8ccd0eb86beb60bf0f",
-  "digestSignature": "1f9abf627a38d1e4317ad03891e508afe927aab6e3d82377eb6333cc65d94bfd6d49eabda65c919fe0df8b3d84c35b42aa7bd7195c1e75e53c07d3e7603e280d",
+  "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/packs/2026-09-02.14.json",
+  "sha256": "cccc37ea8bd5d1418e95bdb48ab37891a1f2b575c7583f04d0bab98e11bdc050",
+  "bytes": 11745599,
+  "signature": "c74ae7575e47fa4a249f8ad9b1b88a9a2a39b25419d057200b7175e0cde2d622e0596367c63bccf0ca0a04a72a69b7fb115be47ecf0cae304b17616220926007",
+  "digestSignature": "0ca7357aae0b93e6126347bd144e356595f136c340290ea58dcde4a974a27f5f1ee70f9a1aed8668da9536ee388cd1feeba1755892bd956aeb6febe841056e05",
   "shippedItems": 2442
 }
