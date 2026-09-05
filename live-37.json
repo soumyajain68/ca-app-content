@@ -1,9 +1,9 @@
 {
-  "versionName": "0.32.0",
+  "versionName": "0.32.1",
   "nativeVersionCode": 37,
-  "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/live/bundle-0.32.0-37.hbc.gz",
-  "sha256": "0076c74348ad85491f6c740a94e91094a600be11c7783da1281c3ea6abafb2f8",
-  "bytes": 16899460,
-  "compressedBytes": 4991376,
-  "releaseNumber": 212
+  "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/live/bundle-0.32.1-37.hbc.gz",
+  "sha256": "b7856080db57ee0eff2cbe3850d967c53103f09726c977c42ac01e50eb409c58",
+  "bytes": 16902328,
+  "compressedBytes": 4992019,
+  "releaseNumber": 213
 }
