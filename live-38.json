@@ -4,5 +4,6 @@
   "url": "https://raw.githubusercontent.com/soumyajain68/ca-app-content/master/live/bundle-0.31.2-38.hbc.gz",
   "sha256": "12a8ed28192544037bd9a7f8039c9b7d2c2833500e3c8663aea0a207a5912de1",
   "bytes": 16842400,
-  "compressedBytes": 4969185
+  "compressedBytes": 4969185,
+  "releaseNumber": 211
 }
