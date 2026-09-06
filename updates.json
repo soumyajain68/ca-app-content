@@ -3,6 +3,22 @@
   "attempt": "november 2026",
   "updates": [
     {
+      "id": "amd-final-p4-judicial-update-90669bos-aps4077-ju-may2026",
+      "date": "2026-09-06",
+      "title": "Paper-4: Direct Tax Laws & International Taxation - Judicial Update for November, 2026 Examination",
+      "url": "https://resource.cdn.icai.org/90669bos-aps4077-ju-may2026.pdf",
+      "kind": "What applies",
+      "seen": "2026-09-06"
+    },
+    {
+      "id": "amd-final-p5-statutory-update-90104bos-aps3735",
+      "date": "2026-09-06",
+      "title": "Paper-5: Indirect Tax Laws (Statutory Update for November 2026 examination)",
+      "url": "https://resource.cdn.icai.org/90104bos-aps3735.pdf",
+      "kind": "What applies",
+      "seen": "2026-09-06"
+    },
+    {
       "id": "bos-603",
       "date": "2026-08-17",
       "title": "Board of Studies (Academic) Conducts Fortnight Programme for November 2026 Exams - Paper-wise Expert Sessions Start from 21st August ,2026 at 3:00 PM for Final Students.",
@@ -43,7 +59,7 @@
       "seen": "2026-09-01"
     }
   ],
-  "checked": "2026-09-06T11:47:05.793Z",
+  "checked": "2026-09-06T12:02:35.584Z",
   "checkedSources": {
     "announcements": true,
     "amendments": true
