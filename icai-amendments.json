@@ -1,0 +1,32 @@
+{
+  "source": "https://boslive.icai.org/education_content_AmendmentsDevelopments.php?c=final",
+  "course": "final",
+  "note": "What the ICAI amendments page listed, last time it was read. Titles, papers and addresses only — facts about a document, never its text.",
+  "checked": "2026-09-06T11:46:59.403Z",
+  "rows": [
+    {
+      "id": "amd-final-p4-judicial-update",
+      "title": "Paper-4: Direct Tax Laws & International Taxation - Judicial Update for November, 2026 Examination",
+      "kindOfUpdate": "Judicial Update",
+      "paper": "Paper-4",
+      "url": "https://resource.cdn.icai.org/90669bos-aps4077-ju-may2026.pdf",
+      "file": "90669bos-aps4077-ju-may2026.pdf"
+    },
+    {
+      "id": "amd-final-p4-statutory-update",
+      "title": "Paper-4: Direct Tax Laws & International Taxation - Statutory Update for September, 2025 Examination",
+      "kindOfUpdate": "Statutory Update",
+      "paper": "Paper-4",
+      "url": "https://resource.cdn.icai.org/86345bos-aps947-statutory-fnl-sep2025.pdf",
+      "file": "86345bos-aps947-statutory-fnl-sep2025.pdf"
+    },
+    {
+      "id": "amd-final-p5-statutory-update",
+      "title": "Paper-5: Indirect Tax Laws (Statutory Update for November 2026 examination)",
+      "kindOfUpdate": "Statutory Update",
+      "paper": "Paper-5",
+      "url": "https://resource.cdn.icai.org/90104bos-aps3735.pdf",
+      "file": "90104bos-aps3735.pdf"
+    }
+  ]
+}
